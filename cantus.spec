@@ -17,6 +17,8 @@ Requires:	gnome-libs >= 1.2.8
 Requires:	gtk+ >= 1.2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define         _prefix         /usr/X11R6
+
 %description
 cantus is a suite to rename and tag mp3 and ogg/vorbis files. It is
 free software, and distributed under the terms of the GPL. It was
@@ -59,13 +61,15 @@ Mo¿liwo¶ci:
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%makeinstall
+%makeinstall gnomemenudir=$RPM_BUILD_ROOT%{_applnkdir}/Utilities
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc COPYING
+%doc AUTHORS COPYING ChangeLog INSTALL NEWS README TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/pixmaps/%{name}/*.xpm
+%{_datadir}/pixmaps/%{name}/*.png
+%{_applnkdir}/Utilities/cantus.desktop
