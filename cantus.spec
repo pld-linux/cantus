@@ -1,13 +1,13 @@
 Summary:	A GUI tool to rename and tag mp3 and ogg/vorbis files
 Summary(pl):	Graficzne narzêdzie do zmiany nazw i znaczników plików mp3 i ogg/vorbis
 Name:		cantus
-Version:	1.05
+Version:	1.07
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 # http://software.manicsadness.com/dlcounter.php?id=16&file=%{name}-%{version}-1.tar.gz
-Source0:	%{name}-%{version}-1.tar.gz
-# Source0-md5:	8f3166d2801e514e00e7c650412261ef
+Source0:	http://sam.homeunix.com/software.manicsadness.com-step4/releases/cantus/%{name}-%{version}-1.tar.gz
+# Source0-md5:	0e1ec373ac87a1b7ca604d055548b92b
 URL:		http://software.manicsadness.com/cantus/
 BuildRequires:	autoconf
 BuildRequires:	gnome-libs-devel >= 1.2.8
