@@ -6,6 +6,7 @@ Release:	1
 Group:		X11/Applications/Sound
 # http://software.manicsadness.com/dlcounter.php?id=16&file=%{name}-%{version}-1.tar.gz
 Source0:	%{name}-%{version}-1.tar.gz
+# Source0-md5:	8f3166d2801e514e00e7c650412261ef
 License:	GPL
 URL:		http://software.manicsadness.com/cantus/
 BuildRequires:	autoconf
