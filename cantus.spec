@@ -17,7 +17,6 @@ Requires:	gnome-libs >= 1.2.8
 Requires:	gtk+ >= 1.2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _prefix         /usr/X11R6
 
 %description
 cantus is a suite to rename and tag mp3 and ogg/vorbis files. It is
