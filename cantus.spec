@@ -1,5 +1,5 @@
-Summary:	A GUI tool to rename and tag MP3 and ogg/vorbis files
-Summary(pl):	Graficzne narzêdzie do zmiany nazw i znaczników plików MP3 i ogg/vorbis
+Summary:	A GUI tool to rename and tag MP3 and Ogg/Vorbis files
+Summary(pl):	Graficzne narzêdzie do zmiany nazw i znaczników plików MP3 i Ogg/Vorbis
 Name:		cantus
 Version:	1.07
 Release:	1
@@ -20,7 +20,7 @@ Obsoletes:	gmp3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-cantus is a suite to rename and tag MP3 and ogg/vorbis files. It is
+cantus is a suite to rename and tag MP3 and Ogg/Vorbis files. It is
 free software, and distributed under the terms of the GPL. It was
 written by sam (Samuel Abels, <sam@manicsadness.com>) and implemented
 in C using the GTK.
@@ -36,7 +36,7 @@ Features:
 
 %description -l pl
 cantus to zestaw narzêdzi do zmiany nazw i znaczników plików MP3 i
-ogg/vorbis. Jest to wolnodostêpne oprogramowanie, rozpowszechniane
+Ogg/Vorbis. Jest to wolnodostêpne oprogramowanie, rozpowszechniane
 na licencji GPL. Zosta³o napisane przez sama (Samuela Abelsa,
 <sam@manicsadness.com>) i zaimplementowany w C przy u¿yciu GTK.
 
