@@ -3,7 +3,7 @@ Summary(pl):	Graficzne narzêdzie do zmiany nazw i znaczników plików mp3 i ogg/vo
 Name:		cantus
 Version:	1.04
 Release:	1
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 # http://software.manicsadness.com/dlcounter.php?id=16&file=%{name}-%{version}-1.tar.gz
 Source0:	%{name}-%{version}-1.tar.gz
 License:	GPL
@@ -58,6 +58,7 @@ Mo¿liwo¶ci:
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %makeinstall
 
 %clean
