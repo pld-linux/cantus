@@ -68,8 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-# isn't COPYING just GPL? isn't INSTALL generic?
-%doc AUTHORS COPYING ChangeLog INSTALL NEWS README TODO
+%doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %dir %{_pixmapsdir}/%{name}
 %{_pixmapsdir}/%{name}/*.xpm
