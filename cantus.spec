@@ -16,6 +16,7 @@ BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
 Requires:	gnome-libs >= 1.2.8
 Requires:	gtk+ >= 1.2.3
+Obsoletes:	gmp3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
