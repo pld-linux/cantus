@@ -68,8 +68,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+# isn't COPYING just GPL? isn't INSTALL generic?
 %doc AUTHORS COPYING ChangeLog INSTALL NEWS README TODO
 %attr(755,root,root) %{_bindir}/%{name}
-%{_datadir}/pixmaps/%{name}/*.xpm
-%{_datadir}/pixmaps/%{name}/*.png
+%dir %{_pixmapsdir}/%{name}
+%{_pixmapsdir}/%{name}/*.xpm
+%{_pixmapsdir}/%{name}/*.png
 %{_applnkdir}/Utilities/cantus.desktop
