@@ -8,7 +8,7 @@ Group:		X11/Applications/Sound
 # http://software.manicsadness.com/dlcounter.php?id=16&file=%{name}-%{version}-1.tar.gz
 Source0:	http://sam.homeunix.com/software.manicsadness.com-step4/releases/cantus/%{name}-%{version}-1.tar.gz
 # Source0-md5:	0e1ec373ac87a1b7ca604d055548b92b
-URL:		http://software.manicsadness.com/cantus/
+URL:		http://www.debain.org/software/cantus
 BuildRequires:	autoconf
 BuildRequires:	gnome-libs-devel >= 1.2.8
 BuildRequires:	gtk+-devel >= 1.2.3
@@ -62,7 +62,7 @@ Mo¿liwo¶ci:
 rm -rf $RPM_BUILD_ROOT
 
 %makeinstall \
-	gnomemenudir=$RPM_BUILD_ROOT%{_applnkdir}/Utilities
+	gnomemenudir=$RPM_BUILD_ROOT%{_desktopdir}/Utilities
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -74,4 +74,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_pixmapsdir}/%{name}
 %{_pixmapsdir}/%{name}/*.xpm
 %{_pixmapsdir}/%{name}/*.png
-%{_applnkdir}/Utilities/cantus.desktop
+%{_desktopdir}/Utilities/cantus.desktop
