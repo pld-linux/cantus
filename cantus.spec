@@ -1,5 +1,5 @@
 Summary:	A GUI tool to rename and tag MP3 and Ogg/Vorbis files
-Summary(pl.UTF-8):   Graficzne narzędzie do zmiany nazw i znaczników plików MP3 i Ogg/Vorbis
+Summary(pl.UTF-8):	Graficzne narzędzie do zmiany nazw i znaczników plików MP3 i Ogg/Vorbis
 Name:		cantus
 Version:	1.07
 Release:	1
